@@ -1,0 +1,136 @@
+.board {
+    
+    border: solid 1px black;
+    background-color: rgba(220, 220, 220, 0.521);
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+td{
+    border: 0.2px solid gray;
+    page-break-after: 0;
+    margin: 0;
+    width: 15px;
+    height: 15px;
+}
+
+.gameOver {
+    color: rgb(184, 20, 20);
+}
+
+.size{
+    font-size: 11px;
+}
+
+
+body {
+    background-color: rgb(202, 177, 146);
+    text-align: center;
+}
+
+
+.table {
+    position: center; 
+}
+
+.cell:hover {
+    background-color : rgb(168, 153, 153);
+}
+
+.yourlevel{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+.back {
+    background-color: darkgrey;
+    display: none;
+}
+
+.smile{
+    width: 35px;
+    height: 25px;
+   background-color: rgb(202, 177, 146);
+   font-size: 25px;
+   text-align: center;
+   border-radius: 200px 200px 200px 200px;
+   border: 0px ;
+   padding-right: 15px;
+    padding-left: 0px;
+    outline: none;
+
+}
+
+#Time{
+   font-size: 20px;
+   margin-right: 10px;
+   color: rgb(139, 0, 0);
+}
+
+.safe{
+    width: 80px;
+    height: 30px;
+    margin-bottom: 0px;
+    margin-top: 2px;
+    background-color: rgb(22, 133, 133);
+    border-color: rgb(14, 112, 112);
+}
+
+.safeColor {
+    background-color: lightseagreen;
+
+}
+
+.remained {
+    font-size: 15px;
+    margin-top: 1.5px;
+}
+
+.beginner{
+    background-color: rgb(22, 133, 133);
+}
+.medium{
+    background-color: rgb(22, 133, 133);
+}
+.expert{
+    background-color: rgb(22, 133, 133);
+}
+
+.title{
+    color: black;
+}
+
+#level{
+    margin-top: 10px;
+}
+
+.mine{
+    margin-left: 20px;
+    color: rgb(139, 0, 0);
+    font-size: 20px;
+}
+.live{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+.manually {
+ background: rgb(245, 70, 70); 
+ height: 30px;
+ width: 180px;
+ font-weight: bold;
+  margin: 5px;
+
+}
+
+
+.hint{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#noContextMenu {
+    margin-top: 6px;
+}

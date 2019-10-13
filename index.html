@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mine Sweeper </title>
+</head>
+
+<body onload="initGame()">
+    <h1 class="title"> Mine Sweeper </h1>
+    <h2 class="gameOver"></h2>
+
+    <div class="table">
+        <tr>
+            <th>
+
+                <div class="yourlevel"> Choose your level:</div>
+                <div id="level">
+                    <label><button class="beginner" onclick="chooseLevel('Beginner')">Beginner</button></label>
+                    <label><button class="medium" onclick="chooseLevel('Medium')">Medium</button></label>
+                    <label><button class="expert" onclick="chooseLevel('Expert')"> Expert</button></label>
+                    <div>
+                            <button class="manually " onclick="manuallyCreateOnOff ()"> Manually creat</button>
+                    </div>
+                   
+                </div>
+                 
+            </th>
+
+        </tr>
+        <tr>
+            <th>
+                <label><time id="Time">00:00</time></label>
+                <label><button class="smile" mousedown="mousedown()" onclick="initGame()"></button></label>
+                <label><span class="mine"></span></label>
+            </th>
+
+        </tr>
+        <table align ="center" margin-top=20px mclass="board" cellpadding="10" id="noContextMenu">
+
+            <tbody class="board">
+
+            </tbody>
+        </table>
+        <div>
+            <h1 class="live"><span class="lives"></span> LIVES LEFT</h1>
+            <h1 class="hint" onclick="hintClick()"></h1>
+            <button class="safe" onclick="safeClick()">Safe Click</button>
+          
+            <h1 class="remained"><span class="remainedsafe">3</span> clicks availbale</h1>
+            <h2 class="bestTime"></h2>
+        </div>
+    </div>
+
+    <script src="js/app.js"> </script>
+    <script src="js/util.js"> </script>
+</body>
+
+</html>
